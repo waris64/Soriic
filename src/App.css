@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'monster';
+}
+.set{
+    font-size: 2rem ;
+}
+#pic{
+    border-radius: 0 100% 100% 100%;
+}
+#pic-1{
+    border-radius: 0 100% 100% 100%;
+}
+#animation{
+    animation: slide-up 5s ease-in-out;
+    animation-iteration-count: infinite;
+}
+#animation-2{
+animation: slide-left 5s ease-in-out;
+animation-iteration-count: infinite;
+}
+@keyframes slide-left{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(30px);}
+    100%{transform: translateX(0);}
+}
+@keyframes slide-up{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(30px) ;}
+    100%{transform: translateY(0);}
+}
